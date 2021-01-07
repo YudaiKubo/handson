@@ -2,7 +2,7 @@
   "executionRoleArn": "arn:aws:iam::950457927752:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "hoge-task-definition",
+      "name": "hoge-container",
       "image": "<IMAGE1_NAME>",
       "portMappings": [
         {
