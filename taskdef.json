@@ -1,5 +1,5 @@
 {
-  "executionRoleArn": "arn:aws:iam::315408206347:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::315408206347:role/kubo-test-taskExecutionRole",
   "containerDefinitions": [
     {
       "name": "kubo-test-nginx-container",
