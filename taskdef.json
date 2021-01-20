@@ -2,32 +2,8 @@
   "executionRoleArn": "arn:aws:iam::315408206347:role/kubo-test-taskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "kubo-test-nginx-container",
-      "image": "<NGINX_IMAGE_NAME>",
-      "portMappings": [
-        {
-          "containerPort": 80,
-          "hostPort": 80,
-          "protocol": "tcp"
-        }
-      ],
-      "essential": true
-    }
-    {
-      "name": "kubo-test-php-container",
-      "image": "<PHP_IMAGE_NAME>",
-      "portMappings": [
-        {
-          "containerPort": 80,
-          "hostPort": 80,
-          "protocol": "tcp"
-        }
-      ],
-      "essential": true
-    }
-    {
-      "name": "kubo-test-mysql-container",
-      "image": "<MYSQL_IMAGE_NAME>",
+      "name": "kubo-test-wordpress-container",
+      "image": "<IMAGE1_NAME>",
       "portMappings": [
         {
           "containerPort": 80,
