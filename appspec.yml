@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: "<TASK_DEFINITION>" ## <TASK_DEFINITION>という文字列を置き換えることなくそのまま使用してください。
         LoadBalancerInfo:
-            ContainerName: "kubo-test-container" ##適切な名前に置き換えてください
+            ContainerName: "kubo-test-wordpress-container" ##適切な名前に置き換えてください
             ContainerPort: 80 ##適切なポート番号に置き換えてください
