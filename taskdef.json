@@ -11,12 +11,6 @@
           "protocol": "tcp"
         }
       ],
-      "secrets": [
-        {
-            "name": "DB_URL",
-            "valueFrom": "kubo-test-rds-url"
-        }
-    ],
       "essential": true
     }
   ],
