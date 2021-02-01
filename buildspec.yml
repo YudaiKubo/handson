@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
-      - REPOSITORY_URI=315408206347.dkr.ecr.ap-northeast-1.amazonaws.com/kubo-test-repository
+      - REPOSITORY_URI=315408206347.dkr.ecr.ap-northeast-1.amazonaws.com/kubo-handson-repository
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:

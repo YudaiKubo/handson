@@ -1,8 +1,8 @@
 {
-  "executionRoleArn": "arn:aws:iam::315408206347:role/kubo-test-taskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::315408206347:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "kubo-test-wordpress-container",
+      "name": "kubo-handson-container",
       "image": "<IMAGE1_NAME>",
       "portMappings": [
         {
@@ -18,5 +18,5 @@
   "networkMode": "awsvpc",
   "cpu": "256",
   "memory": "512",
-  "family": "kubo-test-task-definition"
+  "family": "kubo-handson-task-definition"
 }
