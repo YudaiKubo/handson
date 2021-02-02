@@ -2,7 +2,7 @@
   "executionRoleArn": "arn:aws:iam::315408206347:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "kubo-handson-container",
+      "name": "kubo-test2-container",
       "image": "<IMAGE1_NAME>",
       "portMappings": [
         {
@@ -18,5 +18,5 @@
   "networkMode": "awsvpc",
   "cpu": "256",
   "memory": "512",
-  "family": "kubo-handson-task-definition"
+  "family": "kubo-test2-task-definition"
 }
